@@ -19,3 +19,22 @@ body::before {
   opacity: 0.9;
   z-index: -1;
 }
+
+.dropdown {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.dropdown-title {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+.dropdown-content {
+  display: none;
+  padding: 10px;
+}
+.dropdown.active .dropdown-content {
+  display: block;
+}
