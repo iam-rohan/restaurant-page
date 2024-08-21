@@ -1,5 +1,5 @@
 import "./styles.css";
-import { initialLoad as homeLoader } from "./page-load";
+import { homeLoad as homeLoader } from "./home";
 import { loadMenu as menuLoader } from "./menu";
 import { loadAbout as aboutLoader } from "./about";
 
